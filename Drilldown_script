@@ -1,0 +1,3 @@
+<drilldown>
+          <set token="HIDDEN">$click.value2$|search index="*" |table action src src_port dst dest_port</set>
+        </drilldown>
