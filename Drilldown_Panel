@@ -1,0 +1,15 @@
+<row>
+    <panel depends="$HIDDEN$">
+      <table>
+        <search>
+          <query>$HIDDEN$</query>
+          <earliest>-24h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">cell</option>
+        <drilldown>
+          <unset token="HIDDEN"></unset>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
